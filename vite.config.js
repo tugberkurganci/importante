@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [react(),
   ],
   
-  base: "/prvt2/",
+  base: "/importante/",
 
 })
