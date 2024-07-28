@@ -30,6 +30,7 @@ const Profile = () => {
                 }
             } catch (error) {
                 console.error('Error fetching profile data:', error);
+                setBalance(0)
             }
         };
 

@@ -16,6 +16,7 @@ export default function CustomNavbar() {
       .then(response => {
         // Handle success response
         dispatch(logoutSuccess());
+        navigate("/")
       })
       .catch(error => {
         // Handle error response

@@ -44,12 +44,14 @@ const RequestCreation = ({ setRefresh }) => {
           console.log('Balance:', balance);
         } else {
           console.error('Balance data is not a valid number');
+          
         }
       } else {
         console.error('User walletId not found');
       }
     } catch (error) {
       console.error('Error fetching data:', error);
+      setBalance(0)
     }
         }
   
