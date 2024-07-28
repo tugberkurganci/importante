@@ -85,7 +85,7 @@ const Payments = () => {
                 <ListGroup.Item><strong>Amount:</strong> {request.amount}</ListGroup.Item>
                 <ListGroup.Item><strong>Status:</strong> <Badge className="badge-primary">{request?.status}</Badge></ListGroup.Item>
               </ListGroup>
-              {auth.role ===" MANAGER " && <Button variant="primary" onClick={() => handleProcessPayments(request)}>
+              {auth.role ==="MANAGER" && <Button variant="primary" onClick={() => handleProcessPayments(request)}>
                 Process Payments
               </Button>}
             </Card.Body>
