@@ -20,7 +20,7 @@ import Payments from './pages/Payments';
 function App() {
   return (
     <>
-      <Router  basename="/prvt2/">
+      <Router  basename="/importante/">
         <CustomNavbar />
         <Container className="mt-4">
           <Routes>
